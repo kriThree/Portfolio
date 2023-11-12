@@ -1,0 +1,13 @@
+@import "../../helpers/css/base.module.scss";
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: space-between;
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
+}
+.title {
+	margin: 0 0 2rem 0;
+}

@@ -1,0 +1,52 @@
+@import "../../helpers/css/base.module.scss";
+.title {
+	margin: 0 0 1rem 0;
+	width: 60%;
+	@media (max-width: 800px) {
+		width: 100%;
+	}
+}
+.text {
+	margin: 1rem 0 2rem 0;
+	width: 50%;
+	& p {
+		&:not(:last-child) {
+			margin: 0 0 0.7rem 0;
+		}
+		& a {
+			color: #346a66;
+		}
+	}
+	@media (max-width: 800px) {
+		width: 80%;
+	}
+    @media (max-width: 500px) {
+		width: 100%;
+	}
+}
+.groups {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	background-color: $additionalColor1;
+	border-radius: 0.5rem;
+	@media (max-width: 1024px) {
+		width: 80%;
+	}
+	@media (max-width: 650px) {
+		width: 100%;
+	}
+	@media (max-width: 500px) {
+		padding: 1rem;
+	}
+}
+.groups__text {
+	text-align: right;
+	color: white;
+	margin: 0 0 1rem 0rem;
+}
+.groups__list {
+	display: flex;
+	flex-direction: column;
+}

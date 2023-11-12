@@ -1,0 +1,25 @@
+@import "../../helpers/css/base.module.scss";
+.container {
+	@media (max-width: 560px) {
+		align-items: center;
+	}
+}
+.title {
+	margin: 0 0 2rem 0;
+}
+.alert {
+	color: rgb(99, 50, 50);
+	border: 2px dotted rgb(181, 53, 53);
+	background-color: $additionalColor2;
+	padding: 2rem;
+}
+.types {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	height: 90vh;
+	@media (max-width: 560px) {
+		flex-direction: column;
+		margin: 0;
+	}
+}

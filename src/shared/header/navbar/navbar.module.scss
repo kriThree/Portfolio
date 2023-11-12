@@ -1,0 +1,39 @@
+@import "../../../helpers/css/base.module.scss";
+
+.navbar {
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	@media (max-width: 768px) {
+		flex-direction: row;
+		width: 100%;
+	}
+}
+.link {
+	transform: rotate(90deg);
+	user-select: none;
+	@media (max-width: 768px) {
+		transform: none;
+	}
+	@media (max-width: 400px) {
+		font-size: 0.8rem;
+	}
+}
+.link a {
+	color: $additionalColor2;
+	text-decoration: none;
+}
+.active {
+	opacity: 0.7;
+	position: relative;
+	z-index: 4;
+}
+.active::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+}

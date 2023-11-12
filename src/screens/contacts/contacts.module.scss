@@ -1,0 +1,9 @@
+@import "../../helpers/css/base.module.scss";
+.title {
+	margin: 0 0 1rem 0;
+	height: calc(10vh - 2rem);
+}
+.contacts {
+	height: 80vh;
+	position: relative;
+}

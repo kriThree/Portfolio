@@ -1,0 +1,13 @@
+@import "../../helpers/css/base.module.scss";
+.rates {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5%;
+	min-height: 90vh;
+	flex-wrap: wrap;
+	@media (max-width: 620px) {
+        flex-direction: row;
+		gap: 2rem;
+	}
+}

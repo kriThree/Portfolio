@@ -1,0 +1,24 @@
+@import "../../../helpers/css/base.module.scss";
+
+.role {
+	color: $additionalColor1;
+	text-decoration: none;
+	padding: 2rem 1rem;
+	display: flex;
+	z-index: 1;
+	flex-direction: column;
+}
+.role__text {
+	margin: 1rem 0 0 0;
+}
+.role__image_cont {
+	margin: 0 0 5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+}
+.role__image {
+	font-size: 4rem;
+}

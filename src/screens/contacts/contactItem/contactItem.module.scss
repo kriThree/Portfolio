@@ -1,0 +1,21 @@
+@import "../../../helpers/css/base.module.scss";
+
+.contact {
+	padding: 0.2rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: 100ms;
+}
+.contact__icon {
+	color: black;
+	font-size: 5rem;
+	@media (max-width: 500px) {
+		font-size: 3rem;
+	}
+}
+
+.description {
+	font-size: 2rem;
+}
